@@ -1,0 +1,67 @@
+body{
+    background-color: maroon;
+}
+
+.timer-content{
+    
+    width:30%;
+    margin:0 auto;
+}
+.header-title{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+header{
+    
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-bottom: 2px solid rgba(0,0,0,0.1)
+
+}
+
+.timer-container{
+    background-color: rgba(255,255,255,0.1);
+    padding:15px;
+    margin-top:20px;
+    width:80%;
+    margin:20px auto;
+    border-radius: 8px;
+}
+.tab-list{
+    text-align: center;
+}
+.tab-item{
+    display: inline-block;
+    font-size: 8px;
+    color:white;
+    background-color: brown;
+    padding: 5px;
+}
+.tab-item.active{
+    background-color: black;
+
+}
+.tab-item-content
+{
+    display: none;
+    text-align: center;
+}
+.tab-item-content.active
+{
+    display: block;
+}
+.time
+{
+    font-size:50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+    font-weight: bold;
+}
+button{
+    padding:10px 35px;
+   
+}
